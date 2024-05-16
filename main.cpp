@@ -10,7 +10,7 @@ bool filterUmur(int age) {
 }
 
 bool filterKotor(const string& name) {
-    vector<string> dirtyWords = {"anjing", "memek", "kontol"};
+    vector<string> filterKotor = {"anjing", "memek", "kontol"};
 
     
     for (const string& word : filterKotor) {
