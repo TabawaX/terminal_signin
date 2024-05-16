@@ -13,7 +13,7 @@ bool filterKotor(const string& name) {
     vector<string> dirtyWords = {"anjing", "memek", "kontol"};
 
     
-    for (const string& word : dirtyWords) {
+    for (const string& word : filterKotor) {
         if (name.find(word) != string::npos) {
             return true;
         }
